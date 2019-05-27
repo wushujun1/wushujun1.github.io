@@ -1,0 +1,14 @@
+﻿User-agent: *
+Disallow: /admin/
+Disallow: /App_Data/
+Disallow: /ashx/
+Disallow: /bin/
+Disallow: /css/
+Disallow: /download/
+Disallow: /image/
+Disallow: /js/
+Disallow: /log/
+Disallow: /music/
+Disallow: /ueditor/
+Disallow: /video/
+Disallow: /null.html

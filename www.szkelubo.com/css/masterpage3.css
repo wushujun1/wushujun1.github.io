@@ -1,0 +1,93 @@
+﻿.banner
+{
+    width: 100%;
+    height: auto;
+}
+.banner #banner_inner
+{
+    width: 100%;
+    height: 570px;
+    position: relative;
+    left: 50vw;
+    margin-left: -50vw;
+    top: 0px;
+    z-index: 0;
+}
+.banner #banner_inner #dts
+{
+    width: 100%;
+    height: auto;
+}
+.banner #banner_inner #dts a
+{
+    filter: alpha(opacity=0);
+    opacity: 0;
+    display: none;
+}
+.banner #banner_inner #dts a img
+{
+    width: 100%;
+    height: auto;
+}
+.banner #banner_inner #xts
+{
+    list-style: none;
+    width: auto;
+    height: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: absolute;
+    left: 50%;
+    margin-left: 0px;
+    bottom: 6px;
+    z-index: 0;
+    display: none;
+}
+.banner #banner_inner #xts li
+{
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: #B1B1B1;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 10px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.menu
+{
+    list-style: none;
+    font-size: 14px;
+}
+.menu li
+{
+    float: left;
+    width: 238px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #EFEFEF;
+}
+.menu .select>a
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #015CB5;
+}
+.menu li a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.menu li a:hover
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #015CB5;
+}

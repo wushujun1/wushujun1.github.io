@@ -1,0 +1,16 @@
+﻿*
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+html
+{
+    height: 100%;
+}
+body
+{
+    text-align: center;
+    font-size: 12px;
+}
